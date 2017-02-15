@@ -10,10 +10,37 @@
 <body>
 <div class="container">
   <h2>Simple Database</h2>
-  <table class="table table-bordered">
+  <div class="dropdown" align="right">
+    <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">filter1
+    <span class="caret"></span>
+        <ul class="dropdown-menu dropdown-menu-left">
+            <li><a href="#"></a></li>
+            <li><a href="#"></a></li>
+            <li><a href="#"></a></li>
+        </ul>
+    </button>
+   <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">filter2
+    <span class="caret"></span>
+        <ul class="dropdown-menu dropdown-menu-right">
+            <li><a href="#"></a></li>
+            <li><a href="#"></a></li>
+            <li><a href="#"></a></li>
+        </ul>
+    </button>
+   <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">filter3
+    <span class="caret"></span>
+        <ul class="dropdown-menu dropdown-menu-left">
+            <li><a href="#"></a></li>
+            <li><a href="#"></a></li>
+            <li><a href="#"></a></li>
+        </ul>
+    </button>
+    </div>
+  
+    <table class="table table-striped" class="table table-bordered">
     <thead>
       <tr>
-        <th>Firstname</th>
+        <th>Name</th>
         <th>Dob</th>
         <th>Email</th>
       </tr>
